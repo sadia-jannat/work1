@@ -1,0 +1,110 @@
+{% load static %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Assignment</title>
+
+    <link rel="stylesheet" href="{% static 'style2.css'%}">
+
+    <style>
+
+.padding {
+  padding:20px;
+  text-align: center;
+  background-color:green;
+  color:white;
+  border:5px solid blue;
+}
+.margin{
+     margin:20px;
+     background-color:yellow;
+     color:green;
+     border:5px solid white;
+     }
+.mp{
+padding:20px;
+margin:20px;
+color:danger;
+background-color:orange;
+border:5px solid black;
+text-align:center;
+}
+.p{
+margin:50px;
+     background-color:yellow;
+     color:green;
+
+     width:400px;
+
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+   border-radius: 10px;
+}
+th, td {
+  background-color: green;
+
+}
+
+
+    </style>
+
+
+</head>
+<body id="bg">
+   <div class="padding">
+       <h1>Vitamin A is a fat-soluble nutrient. It helps your body form healthy teeth, bones, soft tissues, and skin. It can also help you ward off
+           bacterial and viral infections, prevent night blindness, and keep your hair and nails healthy.</h1>
+   </div>
+   <div class="margin">
+       <h2>Vitamin A is a fat-soluble nutrient. It helps your body form healthy teeth, bones, soft tissues, and skin. It can also help you ward off
+           bacterial and viral infections, prevent night blindness, and keep your hair and nails healthy.</h2>
+   </div>
+   <div class="mp">
+       <h2 >Foods</h2>
+       <p >The foods you eat do more than fill your belly — they also give your body the nutrients it needs to thrive.
+           What you eat can affect how you feel today as well as how you feel years from now.</p>
+   </div>
+  <div class="p">
+      <h2>website</h2><a href="https://www.w3schools.com/html/default.asp">click  please
+      <img src="{% static 'image/web.jpg '%}">
+     </a></div>
+
+   <div class="mp">
+<h2 style="color:red">Images:</h2>
+             <img class="img-fluid" src="{% static 'image/math.jpg' %}">
+               <img class="img-fluid" src="{% static 'image/math2.jpg' %}">
+             <img class="img-fluid" src="{% static 'image/vegetable.jpg' %}">
+   </div>
+
+
+
+   <table style="width:60%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
