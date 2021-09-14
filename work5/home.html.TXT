@@ -1,0 +1,202 @@
+{% load static %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Assignment</title>
+
+    <link rel="stylesheet" href="{% static 'style2.css'%}">
+
+    <style>
+
+    .video{
+  padding:10px;
+  margin:30px;
+  text-align: center;
+  color:white;
+  border:5px solid blue;
+  background-image:url('{% static "image/brainimg.jpg" %}');
+}
+
+
+
+.mp{
+padding:20px;
+margin:20px;
+background-color:MediumSeaGreen;
+border:5px solid black;
+}
+
+
+#h{
+color:SlateBlue;
+text-align:center;
+margin:20px;
+}
+#h1{
+color:red;
+background-color:orange;
+border:10px solid green;
+}
+#h2{
+color:#0000ff;
+background-color:MediumSeaGreen;
+border:9px solid red;
+
+}
+#h3{
+color:rgb(238, 130, 238);
+background-color:SlateBlue;
+border:8px solid yellow;
+}
+#h4{
+color:#ffa500;
+background-color:DodgerBlue;
+border:7px solid white;
+}
+#h5{
+color:green;
+background-color:Gray;
+border:6px solid blue;
+}
+
+.a{
+color:green;
+text-align:center;
+}
+.b{
+color:red;
+}
+.c{
+color:yellow;
+text-align:center;
+}
+.d{
+color:black;
+text-align:right
+}
+
+.ul{
+margin:50px;
+background-color:Tomato;
+color:yellow;
+}
+.ol{
+margin:50px;
+background-color:Violet;
+color:blue;
+}
+#blockp{
+background-color:rgb(255, 99, 71);
+color:yellow;
+border:3px solid white;
+font-size:30px;
+}
+#blockdiv{
+background-color:blue;
+color:white;
+border:4px solid LightGray;
+font-size:25px;
+}
+#blockh6{
+background-color:black;
+color:white;
+border:8px solid green;
+font-size:20px;
+padding:20px;
+}
+#inline{
+background-color:white;
+text-align:center;
+padding:10px;
+font-size:30px;
+color:green;
+ background-image:url('{% static "image/me.jpg" %}');
+}
+   </style>
+
+
+</head>
+<body id="bg" style="background-image:url('{% static "image/teat2.jpg" %}');">
+<h1 id="h"><img src="{% static 'image/icon5.jpg' %}">Follow this video and learn<p>&#128512;&#128525;&#128151;</p></h1>
+
+ <!-- 1. Embed a YouTube video on the HTML page -->
+   <div class="video" style="width:90%" >
+       <iframe width="800" height="600" src="https://www.youtube.com/embed/wY8k4SpyzZc" title="YouTube video player"
+               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen></iframe>
+   </div>
+
+<!--  2. / Change the color of H1 tag using ID -->
+
+<div>
+    <h1 id="h1">This is heading 1</h1>
+<h1 id="h2">This is heading 1</h1>
+<h1 id="h3">This is heading 1</h1>
+<h1 id="h4">This is heading 1</h1>
+<h1 id="h5">This is heading 1</h1>
+</div>
+
+<!-- 3. / Change the color of p tag using class  -->
+
+<div class="mp">
+    <p class="a"><strong>This is heading 1</strong></p>
+<p class="b">This is heading 1</p>
+    <p class="c"><strong>This is heading 1</strong></p>
+<p class="d">This is heading 1</p>
+</div>
+
+<!-- 4. Add an external JavaScript file to the HTML page -->
+
+<script type="text/javascript" src="{ % static 'main.js ' %}">
+
+</script>
+
+<!-- 5. Change the color and background color of the five block-level elements  -->
+
+<div style="border: 1px solid red" ><h2>An Unordered HTML List and it is block-level element.This div and h2 they are also
+block-level element</h2></div>
+
+<ul class="ul">
+    <li>Unodered Html list</li>
+  <li >Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+    <li>Water</li>
+</ul>
+
+<div style="border: 1px solid black"><h2>An Ordered HTML List and it is block-level element.This div and h2 they are also
+block-level element.</h2></div>
+
+<ol class="ol">
+    <li>Odered HTML List</li>
+  <li>Vegetable</li>
+  <li>Fish</li>
+  <li>Rice</li>
+    <li>Banana</li>
+</ol>
+
+<p id="blockp"><img src="{% static 'image/icon2.png' %}">
+    block-level element...p....Time and tide wait for none is a famous proverb which illustrates the value and importance of time. It realizes us that nothing is more precious than time. Time and tide (come out in the sea),
+    both never wait us. We cannot stop the tide to occur in the sea, it occurs whenever it has to come.</p>
+<div id="blockdiv">Block-level element...div...
+Having patience means being able to wait calmly in the face of frustration or adversity, so anywhere there is frustration or
+    adversity.-i.e., nearly everywhere—we have the opportunity to practice it.
+</div>
+<h6 id="blockh6">h1 to h6 tags are block-level element..they do not give any area for anothe tag in their area.
+    <img src="{% static 'image/icon4.png' %}">
+</h6>
+
+<!-- 6. Change the color and background color of the five inline-level elements  -->
+<p id="inline">Inline Level Elements:<br>
+Span tag is inline level  _<span style="background-color:red">This is span_</span>It is span tag.<br>
+ U  tag is inline level__<u style="background-color:#0000ff;">This is underline.</u>__This is underline.<br>
+   Sup tag is inline tag__ <sup style="background-color:hsl(0, 100%, 50%);">__This is superscript.</sup><br>
+   Sub tag is inline tag__ <sub style="background-color:Violet;">This is subscript.</sub>__This is subscript<br>
+  i tag is inline tag__ <i style="background-color:Orange;">This is italic.</i>__This is italic<br>
+</p>
+
+</body>
+</html>
