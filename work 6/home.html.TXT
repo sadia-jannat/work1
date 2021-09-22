@@ -1,0 +1,47 @@
+{% load static %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Assignment</title>
+
+  <!-- mystyle.css-->
+    <link rel="stylesheet" href="{% static 'mystyle.css'%}" type="text/css">
+
+</head>
+<body id="bg">
+<h1 id="h"><img src="{% static 'image/icon5.jpg' %}">Design This form using Html<p>&#128512;&#128525;&#128151;</p></h1>
+
+ <!-- Form create -->
+   <div class="form" style="width:90%" >
+
+       <h2>Registration Form</h2>
+
+<form action="{ % static 'code.php' %}" method="post">
+  <label for="fname"><b>First name: </b></label>
+  <input type="text" id="fname" name="fname">
+    <label for="lname"><b>Last name: </b></label>
+  <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="email"><b>Email: </b></label>
+  <input type="email" id="email" name="email">
+    <label for="address"><b>Address: </b></label>
+  <input type="text" id="address" name="address"><br><br>
+
+    <label for="password"><b>Password: </b></label>
+  <input type="password" id="password" name="password">
+    <label for="password"><b>Confirm password: </b></label>
+  <input type="password" id="confirm password" name="password"><br><br>
+
+
+    <button  type="submit"><b>Submit</b></button>
+</form>
+       <!--button type="button" hoty pare  -->
+
+
+   </div>
+
+</body>
+</html>

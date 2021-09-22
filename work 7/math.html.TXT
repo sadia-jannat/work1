@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  border: 3px solid #73AD21;
+}
+
+div.absolute {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+
+
+<div class="relative">
+
+<script>
+
+    function myfun2()
+    {
+     var a=document.getElementById('number').value;
+     var b=document.getElementById('numbers').value;
+     document.getElementById('result').innerHTML=(a/(b**2));
+
+    }
+</script>
+
+
+Weight:
+  <input type="number" value="number" id="number"><br><br>
+
+ Height:
+<input type="number" value="number" id="numbers"><br><br>
+
+<input type="submit" value="bmi" onclick="return myfun2()"><br><br>
+
+  <div class="absolute">
+
+  <b>the result :</b><br><br>
+
+<span id="result"></span>
+  </div>
+
+
+</div>
+<!-- Waist to Hip -->
+
+<script>
+    function myfun()
+    {
+     var a=document.getElementById('number2').value;
+     var b=document.getElementById('numbers2').value;
+     document.getElementById('result2').innerHTML=(a/b);
+
+    }
+</script>
+
+<div class="relative">
+ Waist:
+  <input type="number" value="" id="number2"><br><br>
+
+ Hip:
+<input type="number" value="" id="numbers2"><br><br>
+
+<input type="submit" value="Waist to Hip" onclick="return myfun()">
+
+
+  <div class="absolute">
+
+  <b>the result :</b><br><br>
+
+<span id="result2"></span>
+  </div>
+</div>
+
+<!-- Waist to Height -->
+
+<script>
+    function myfun3()
+    {
+     var a=document.getElementById('number3').value;
+     var b=document.getElementById('numbers3').value;
+     document.getElementById('result3').innerHTML=(a/b);
+
+    }
+</script>
+
+<div class="relative">
+ Waist:
+  <input type="number" value="" id="number3"><br><br>
+
+    Height:
+<input type="number" value="" id="numbers3"><br><br>
+
+<input type="submit" value="Waist to Height" onclick="return myfun3()">
+
+
+  <div class="absolute">
+
+  <b>the result :</b><br><br>
+
+<span id="result3"></span>
+  </div>
+</div>
+
+    <!--bfp-->
+
+<script>
+    function myfun4()
+    {
+     var a=document.getElementById('number4').value;
+     var b=document.getElementById('numbera4').value;
+      var c=document.getElementById('numberb4').value;
+     var d=document.getElementById('numberc4').value;
+     var e=495;
+     var f=1.0324;
+     var g=0.19077;
+     var h=0.15456;
+     var i=450;
+
+     document.getElementById('result4').innerHTML=(e/(f -g)×(a-b) +(h ×d)-i );
+  }
+</script>
+
+<div class="relative">
+ Waist:
+  <input type="number" value="" id="number4"><br><br>
+
+  Neck  :
+<input type="number" value="" id="numbera4"><br><br>
+  Hip   :
+  <input type="number" value="" id="numberb4"><br><br>
+
+    Height:
+<input type="number" value="" id="numberc4"><br><br>
+
+<input type="submit" value="Waist to Height" onclick="return myfun4()">
+
+
+  <div class="absolute">
+
+  <b>the result :</b><br><br>
+
+<span id="result4"></span>
+  </div>
+</div>
+
+</body>
+</html>

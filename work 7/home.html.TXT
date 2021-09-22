@@ -1,0 +1,107 @@
+{% load static %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Assignment</title>
+
+  <!-- mystyle.css-->
+    <link rel="stylesheet" href="{% static 'mystyle.css'%}" type="text/css">
+    <link rel="stylesheet" href="{% static 'responsive.css'%}" type="text/css">
+
+<style>
+ #part1{
+background-image:url('{% static "image/tree.jpg" %}');
+height:700px;
+background-repeat: no-repeat;
+background-size:cover;
+}
+#b{
+color:black;
+text-align:center;
+}
+#part2{
+background-image:url('{% static "image/brain.jpg" %}');
+background-attachment:fixed;
+background-position:right;
+background-repeat: no-repeat;
+height:400px;
+}
+#b2{
+color:black;
+text-align:left;
+}
+#part3{
+background-image:url('{% static "image/tree.jpg" %}');
+height:600px;
+}
+#b3{
+color:black;
+text-align:center;
+}
+#part4{
+background-color:black;
+color:white;
+border:1px solid white;
+font-size:30px;
+ padding:10px;
+  margin:1px;
+  text-align: center;
+}
+</style>
+
+</head>
+<body>
+<h1 id="b">Background Image</h1>
+
+ <!-- background one image -->
+   <div id="part1" >
+  <p>Most birds can fly using their wings, and when you visit the coast you'll see various sea birds like gulls,
+      terns, and cormorants. You can use the word bird as a verb meaning "to observe birds as a hobby," and in some
+      places, particularly Britain, it's also a noun meaning "young woman." Bird is an Old English word, an unusual form of bridd,
+      "young bird or fledgling," from an unknown origin.Biologically, an animal is a living thing that is not a human being or plant. A bird is classified in kingdom animalia meaning it is also an animal. Despite the fact that birds are animals, they have unique anatomic and physiological characteristics that distinguish them from the rest of the animals. The main evident differences between animals and birds include:
+
+Read more: Difference Between Animals And Birds | Difference Between http://www.differencebetween.net/science/nature/difference-between-animals-and-birds/#ixzz773m5oAHA
+  </p>
+   </div>
+
+<!-- background-image, background-attachment,background-position,background-repeat -->
+<div id="part2" >
+    <h2 id="b2">Here use this types:
+        <ol>
+  <li>Background image.</li>
+  <li>Background attachment.</li>
+  <li>Background position.</li>
+   <li>Background repeat.</li>
+</ol>
+    </h2>
+
+   </div>
+
+<!-- background image repeat also-->
+<h2 id="b3">Background Images</h2>
+ <div id="part3" >
+
+ </div>
+
+<!-- three pages-->
+<p>
+
+<h3>Back to  contact page  <a href="../about/">contact page</a></h3>
+<h3>Back to math page  <a href="../math/">math page</a></h3>
+<h3>Back to other <a href="../other/">other page</a></h3><br><br>
+
+</p>
+
+<!-- only background area-->
+<div id="part4">Only background area
+    <p>Tree Plantation is one of the best activities for making the planet greener, livelier, and healthier. Planted trees help our biodiversity, ensure the supply of oxygen for the next generations, and provide us with various resources. Without trees, the existence of human life,
+        as well as other species on earth, is impossible. So, we should plant more and more trees.</p>
+</div>
+
+
+</body>
+
+</html>

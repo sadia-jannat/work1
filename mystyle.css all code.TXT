@@ -1,0 +1,131 @@
+#bg{
+
+    background-color:#dcdcdc;
+}
+
+    .form{
+  padding:10px;
+  margin:30px;
+  background-color:white;
+  color:black;
+  border:5px solid blue;
+
+}
+#h{
+color:red;
+text-align:center;
+margin:10px;
+}
+
+
+
+.mp{
+padding:20px;
+margin:20px;
+background-color:MediumSeaGreen;
+border:5px solid black;
+}
+
+
+
+#h1{
+color:red;
+background-color:orange;
+border:10px solid green;
+}
+#h2{
+color:#0000ff;
+background-color:MediumSeaGreen;
+border:9px solid red;
+
+}
+#h3{
+color:rgb(238, 130, 238);
+background-color:SlateBlue;
+border:8px solid yellow;
+}
+#h4{
+color:#ffa500;
+background-color:DodgerBlue;
+border:7px solid white;
+}
+#h5{
+color:green;
+background-color:Gray;
+border:6px solid blue;
+}
+
+.a{
+color:green;
+text-align:center;
+}
+.b{
+color:red;
+}
+.c{
+color:yellow;
+text-align:center;
+}
+.d{
+color:black;
+text-align:right
+}
+
+.ul{
+margin:50px;
+background-color:Tomato;
+color:yellow;
+}
+.ol{
+margin:50px;
+background-color:Violet;
+color:blue;
+}
+#blockp{
+background-color:rgb(255, 99, 71);
+color:yellow;
+border:3px solid white;
+font-size:30px;
+}
+#blockdiv{
+background-color:blue;
+color:white;
+border:4px solid LightGray;
+font-size:25px;
+}
+#blockh6{
+background-color:black;
+color:white;
+border:8px solid green;
+font-size:20px;
+padding:20px;
+}
+#inline{
+background-color:white;
+text-align:center;
+padding:10px;
+font-size:30px;
+color:green;
+ background-image:url('{% static "image/me.jpg" %}');
+}
+
+table, th, td{
+border:2px solid blue;
+border-radius:30px;
+}
+th, td{
+text-align:center;
+}
+th:nth-child(even), td:nth-child(even){
+background-color:red;
+}
+th:nth-child(odd), td:nth-child(odd){
+background-color:green;
+}
+<!-- hobe na karon th td agy e color nise-->
+tr:nth-child(even){
+background-color:blue;
+}
+
+
+
