@@ -1,0 +1,72 @@
+.container {
+    margin: auto;
+    padding: 1rem;
+    width: 100px;
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+}
+
+.logo i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+nav {
+    border-top: 2 px solid red;
+    border-bottom: 2px solid green;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 2rem;
+}
+
+nav a {
+    color: black;
+}
+
+.row {
+    display: 1rem;
+    flex: 1;
+}
+
+.col {
+    padding: 1rem;
+    flex: 1;
+}
+
+.col:not(:last-child) {
+    border-right: 2px solid green;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+main p {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
