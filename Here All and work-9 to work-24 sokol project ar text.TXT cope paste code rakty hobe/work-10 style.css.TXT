@@ -1,0 +1,70 @@
+body {
+    background-color: rgba(25, 165, 165, 0.055);
+}
+
+.section {
+    width: auto;
+    height: auto;
+    padding: 30px 30px;
+    margin: 40px 40px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(33, 165, 218);
+}
+
+.btn {
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(9, 70, 62);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(33, 165, 218);
+    transition: 0.4s;
+}
+
+h1 {
+    @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+    font-family: 'Alfa Slab One', cursive;
+    opacity: 0.9;
+}
+
+h4 {
+    opacity: 0.5;
+}
+
+.after::after {
+    content: '';
+    width: 150px;
+    height: 2px;
+    display: inline-block;
+    background: red;
+    margin: 1px 0px 6px 20px;
+}
+
+.before::before {
+    content: '';
+    width: 150px;
+    height: 2px;
+    display: inline-block;
+    background: red;
+    margin: 1px 20px 6px 0px;
+}
+
+.part3 {
+    opacity: 0.5;
+}
+
+h2::first-letter {
+    color: red;
+    font-size: xx-large;
+}
