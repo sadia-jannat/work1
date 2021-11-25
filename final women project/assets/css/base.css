@@ -1,0 +1,81 @@
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Bebas Neue', cursive;
+            }
+            
+            section {
+                padding: 60px 0px;
+            }
+            
+            .container {
+                width: 1150px;
+                margin: auto;
+                height: auto;
+            }
+            
+            .span {
+                font-size: 80px;
+                color: e30f5f;
+            }
+            
+            p {
+                color: fffefe;
+            }
+            
+            a {
+                text-decoration: none;
+                color: e30f5f;
+            }
+            
+            .btn {
+                height: 5px;
+                border: 2px solid;
+                border-radius: 12px;
+                padding: 0px 30px;
+                text-align: center;
+                border-color: e30f5f;
+            }
+            
+            .py-2 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            
+            .py-3 {
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            
+            .pt-2 {
+                padding-top: 20px;
+            }
+            
+            .pb-2 {
+                padding-bottom: 20px;
+            }
+            
+            .px {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            .cast-color {
+                color: 333333;
+            }
+            
+            h3 {
+                color: 494949;
+            }
+            
+            h4 {
+                color: 797979;
+            }
+            
+            h5 {
+                color: cbcbcb;
+            }
+            
+            .mt {
+                margin-top: 30px;
+            }
