@@ -1,0 +1,148 @@
+/*large device*/
+
+@media only screen and (min-width: 1160px) and (max-width: 1300px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .mobile-toggle {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1159px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+    .mobile-toggle {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .header-body {
+        max-width: 1000px;
+    }
+}
+
+
+/* Tablet Device */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+    .mobile-toggle {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .header-body {
+        max-width: 800px;
+    }
+    .about-wrap {
+        display: block;
+    }
+    .casting-wrap {
+        display: block;
+    }
+    .footer-body {
+        width: 100%;
+    }
+    .footer-wrap>div {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 70%;
+        margin: auto;
+        height: auto;
+    }
+    .mobile-toggle {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .header-body {
+        max-width: 500px;
+    }
+    .about-wrap {
+        display: block;
+    }
+    .casting-wrap {
+        display: block;
+    }
+    .footer-body {
+        width: 100%;
+    }
+    .footer-wrap>div {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 575px) {
+    .container {
+        width: 50%;
+        margin: auto;
+        height: auto;
+    }
+    .mobile-toggle {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .header-body {
+        max-width: 300px;
+    }
+    .about-wrap {
+        display: block;
+    }
+    .casting-wrap {
+        display: block;
+    }
+    .footer-body {
+        width: 100%;
+    }
+    .footer-wrap {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+    .container {
+        width: 40%;
+        margin: auto;
+        height: auto;
+    }
+    .mobile-toggle {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .header-body {
+        max-width: 200px;
+    }
+    .about-wrap {
+        display: block;
+    }
+    .casting-wrap {
+        display: block;
+    }
+    .footer-body {
+        width: 100%;
+    }
+    .footer-wrap {
+        display: block;
+    }
+}

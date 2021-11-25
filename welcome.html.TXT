@@ -1,0 +1,95 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raw project practic</title>
+
+    <!--google font awsome Bebas Neue-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!---base, style, resposive css-->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+    .test ul li {
+    display: flex;
+    padding: 10px;
+    }
+   </style>
+</head>
+<body><!--about-->
+<section>
+<div class="container">
+<div class="about-wrap">
+
+<div class="about-text">
+<h1 class="py-2">About</h1>
+<p style="color:494949;">The point of this artical is to help you grasp this big picture of getting six abs.In short, to get six pack abs.You need to
+get learner and develop your abs' musculature.This is done through training and nutrition. The topic of nutrition is covered extensively
+elsewhere n the net:I won't delve in it. training-wise, to  build six pack abs, you must conbine cordio excercise, weightlifting,
+and abdominal excercises.All three are important , and to really get results you must do all three.
+<br><br>
+cordio makes you learner which is necessary if you want your abs to show.Weightlighting makes you to learner, too, by increasing
+resting metabolic rate and the amont of calories you burn at rest.Good weightlifting routines for fat loss are also available
+elsewhere online.Finally, abdominal excercises are needed to define your abs and give them the six pack look.
+</p>
+</div>
+<div class="about-list">
+<table>
+  <tr>
+  <td class="px py-2"><i class="fas fa-graduation-cap"></i></td>
+  <td>Over 20 years experience</td>
+  </tr>
+  <tr>
+  <td class="px py-2"><i class="fas fa-head-side-virus"></i></td>
+  <td>Professional advice</td>
+  </tr>
+  <tr>
+  <td class="px py-2"><i class="fas fa-mug-hot"></i></td>
+  <td>The best model agency in the world</td>
+  <tr>
+  </table>
+  
+
+</div>
+</div>
+</section>
+
+
+<div class="test">
+<ul>
+  <li>
+  <span class="px py-2"><i class="fas fa-graduation-cap"></i></span>
+  <div>Over 20 years experience</div>
+  </li>
+  <li>
+  <span class="px py-2"><i class="fas fa-head-side-virus"></i></span>
+  <div>Professional advice</div>
+  </li>
+  <li>
+  <span class="px py-2"><i class="fas fa-mug-hot"></i></span>
+  <div>The best model agency in the world</div>
+  </li>
+</ul>
+</div>
+<!--about end-->
+
+
+.about-list {
+    width: 50%;
+    margin: 5%;
+}
+   <img src="../image/apple.jpg">
+   <img src="../image/orange.jpg">
+   <img src="../image/vegetable.jpg">
+   
+</body>
+</html>
